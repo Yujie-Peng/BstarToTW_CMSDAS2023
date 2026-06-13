@@ -135,7 +135,7 @@ def select(setname, year):
     a.Define('lead_tau21',    'Dijet_tau1[0]>0 ? Dijet_tau2[0]/Dijet_tau1[0] : -1')
     a.Define('sublead_tau21', 'Dijet_tau1[1]>0 ? Dijet_tau2[1]/Dijet_tau1[1] : -1')
 
-    # ── 6. DeepAK8 scores ────────────────────────────────────────────────────
+    # ── 6. DeepAK8 scores ────────────────────────────────────────────────────  
     a.Define('lead_deepAK8_TvsQCD',    'Dijet_deepTag_TvsQCD[0]')
     a.Define('sublead_deepAK8_TvsQCD', 'Dijet_deepTag_TvsQCD[1]')
     a.Define('lead_deepAK8_WvsQCD',    'Dijet_deepTag_WvsQCD[0]')
